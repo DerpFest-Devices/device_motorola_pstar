@@ -14,8 +14,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from pstar device
 $(call inherit-product, device/motorola/pstar/device.mk)
 
-DERP_VERSION_APPEND_TIME_OF_DAY=true
-DERP_BUILDTYPE := Official
+DERPFEST_BUILD_TYPE := Official
+DERPFEST_BUILD_VARIANT := Stable
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_USES_PICO_GAPPS := true
